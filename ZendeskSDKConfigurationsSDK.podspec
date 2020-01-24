@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '10.0'
   s.requires_arc = true
   s.swift_version = '5.1.3'
-  s.source       = { :git => "https://github.com/zendesk/sdkconfiguations_sdk_ios.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/zendesk/sdkconfigurations_sdk_ios.git", :tag => s.version }
   s.vendored_frameworks = 'SDKConfigurations.framework'
 end
