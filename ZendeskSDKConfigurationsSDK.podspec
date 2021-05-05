@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSDKConfigurationsSDK"
-  s.version      = "1.1.7"
+  s.version      = "1.1.8"
   s.summary      = "ZendeskSDKConfigurationsSDK #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/embeddables"
   s.license      = {
@@ -18,11 +18,8 @@ Pod::Spec.new do |s|
   s.author       = 'Zendesk'
   s.platform     = :ios, '10.0'
   s.requires_arc = true
-  s.swift_version = '5.3'
-  s.cocoapods_version = '>= 1.9.3'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.swift_version = '5.3.2'
+  s.cocoapods_version = '>= 1.10.0'
   s.source       = { :git => "https://github.com/zendesk/sdkconfigurations_sdk_ios.git", :tag => s.version }
   s.vendored_frameworks = 'SDKConfigurations.xcframework'
-  s.preserve_paths = 'SDKConfigurations.xcframework', 'SDKConfigurations.dSYMs/*.dSYM'
 end
