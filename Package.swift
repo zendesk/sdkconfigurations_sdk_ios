@@ -9,13 +9,13 @@ let package = Package(
         .library(
             name: "ZendeskSDKConfigurationsSDK",
             targets: [
-              "ZendeskSDKConfigurationsSDK"
+              "SDKConfigurations"
             ]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "ZendeskSDKConfigurationsSDK",
+            name: "SDKConfigurations",
             path: "SDKConfigurations.xcframework"
         )
     ]
