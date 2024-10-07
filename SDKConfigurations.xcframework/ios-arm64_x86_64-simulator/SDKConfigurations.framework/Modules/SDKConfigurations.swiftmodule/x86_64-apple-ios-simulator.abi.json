@@ -1,0 +1,1082 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDKConfigurations",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Configuration",
+        "printedName": "Configuration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration(im)init",
+            "mangledName": "$s17SDKConfigurations13ConfigurationPxycfc",
+            "moduleName": "SDKConfigurations",
+            "genericSig": "<τ_0_0 where τ_0_0 : SDKConfigurations.Configuration>",
+            "sugared_genericSig": "<Self where Self : SDKConfigurations.Configuration>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration",
+        "mangledName": "$s17SDKConfigurations13ConfigurationP",
+        "moduleName": "SDKConfigurations",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObjectProtocol>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObjectProtocol>",
+        "objc_name": "ZDKConfiguration",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SDKConfigurations",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ConfigurationError",
+        "printedName": "ConfigurationError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noConfig",
+            "printedName": "noConfig",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SDKConfigurations.ConfigurationError.Type) -> SDKConfigurations.ConfigurationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurationError",
+                    "printedName": "SDKConfigurations.ConfigurationError",
+                    "usr": "c:@M@SDKConfigurations@E@ConfigurationError"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SDKConfigurations.ConfigurationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConfigurationError",
+                        "printedName": "SDKConfigurations.ConfigurationError",
+                        "usr": "c:@M@SDKConfigurations@E@ConfigurationError"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SDKConfigurations@E@ConfigurationError@ConfigurationErrorNoConfig",
+            "mangledName": "$s17SDKConfigurations18ConfigurationErrorO8noConfigyA2CmF",
+            "moduleName": "SDKConfigurations",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SDKConfigurations.ConfigurationError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConfigurationError",
+                    "printedName": "SDKConfigurations.ConfigurationError",
+                    "usr": "c:@M@SDKConfigurations@E@ConfigurationError"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17SDKConfigurations18ConfigurationErrorO8rawValueACSgSi_tcfc",
+            "mangledName": "$s17SDKConfigurations18ConfigurationErrorO8rawValueACSgSi_tcfc",
+            "moduleName": "SDKConfigurations",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17SDKConfigurations18ConfigurationErrorO8rawValueSivp",
+            "mangledName": "$s17SDKConfigurations18ConfigurationErrorO8rawValueSivp",
+            "moduleName": "SDKConfigurations",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17SDKConfigurations18ConfigurationErrorO8rawValueSivg",
+                "mangledName": "$s17SDKConfigurations18ConfigurationErrorO8rawValueSivg",
+                "moduleName": "SDKConfigurations",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "_nsErrorDomain",
+            "printedName": "_nsErrorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17SDKConfigurations18ConfigurationErrorO03_nsC6DomainSSvpZ",
+            "mangledName": "$s17SDKConfigurations18ConfigurationErrorO03_nsC6DomainSSvpZ",
+            "moduleName": "SDKConfigurations",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17SDKConfigurations18ConfigurationErrorO03_nsC6DomainSSvgZ",
+                "mangledName": "$s17SDKConfigurations18ConfigurationErrorO03_nsC6DomainSSvgZ",
+                "moduleName": "SDKConfigurations",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@SDKConfigurations@E@ConfigurationError",
+        "mangledName": "$s17SDKConfigurations18ConfigurationErrorO",
+        "moduleName": "SDKConfigurations",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_BridgedNSError",
+            "printedName": "_BridgedNSError",
+            "usr": "s:10Foundation15_BridgedNSErrorP",
+            "mangledName": "$s10Foundation15_BridgedNSErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeableError",
+            "printedName": "_ObjectiveCBridgeableError",
+            "usr": "s:10Foundation26_ObjectiveCBridgeableErrorP",
+            "mangledName": "$s10Foundation26_ObjectiveCBridgeableErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Configurations",
+        "printedName": "Configurations",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "configs",
+            "printedName": "configs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SDKConfigurations.Configuration]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "SDKConfigurations.Configuration",
+                    "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations(py)configs",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsC7configsSayAA13Configuration_pGvp",
+            "moduleName": "SDKConfigurations",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SDKConfigurations.Configuration]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Configuration",
+                        "printedName": "SDKConfigurations.Configuration",
+                        "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations(im)configs",
+                "mangledName": "$s17SDKConfigurations14ConfigurationsC7configsSayAA13Configuration_pGvg",
+                "moduleName": "SDKConfigurations",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Configurations",
+                "printedName": "SDKConfigurations.Configurations",
+                "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SDKConfigurations.Configuration]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "SDKConfigurations.Configuration",
+                    "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations(im)initWithConfigs:",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsC7configsACSayAA13Configuration_pG_tcfc",
+            "moduleName": "SDKConfigurations",
+            "objc_name": "initWithConfigs:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Configurations",
+                "printedName": "SDKConfigurations.Configurations",
+                "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations(im)init",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsCACycfc",
+            "moduleName": "SDKConfigurations",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "startIndex",
+            "printedName": "startIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SDKConfigurations@objc(cs)ZDKConfigurations(py)startIndex",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsC10startIndexSivp",
+            "moduleName": "SDKConfigurations",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SDKConfigurations@objc(cs)ZDKConfigurations(im)startIndex",
+                "mangledName": "$s17SDKConfigurations14ConfigurationsC10startIndexSivg",
+                "moduleName": "SDKConfigurations",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "endIndex",
+            "printedName": "endIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@SDKConfigurations@objc(cs)ZDKConfigurations(py)endIndex",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsC8endIndexSivp",
+            "moduleName": "SDKConfigurations",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SDKConfigurations@objc(cs)ZDKConfigurations(im)endIndex",
+                "mangledName": "$s17SDKConfigurations14ConfigurationsC8endIndexSivg",
+                "moduleName": "SDKConfigurations",
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "insert",
+            "printedName": "insert(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "SDKConfigurations.Configuration",
+                "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@SDKConfigurations@objc(cs)ZDKConfigurations(im)insert:",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsC6insertyyAA13Configuration_pF",
+            "moduleName": "SDKConfigurations",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Configuration",
+                "printedName": "SDKConfigurations.Configuration",
+                "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:17SDKConfigurations14ConfigurationsCyAA13Configuration_pSicip",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsCyAA13Configuration_pSicip",
+            "moduleName": "SDKConfigurations",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "SDKConfigurations.Configuration",
+                    "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@SDKConfigurations@objc(cs)ZDKConfigurations(im)objectAtIndexedSubscript:",
+                "mangledName": "$s17SDKConfigurations14ConfigurationsCyAA13Configuration_pSicig",
+                "moduleName": "SDKConfigurations",
+                "declAttributes": [
+                  "ObjC",
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Subscript",
+            "name": "subscript",
+            "printedName": "subscript(forType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Subscript",
+            "usr": "s:17SDKConfigurations14ConfigurationsC7forTypexSgxm_tcAA13ConfigurationRzluip",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsC7forTypexSgxm_tcAA13ConfigurationRzluip",
+            "moduleName": "SDKConfigurations",
+            "genericSig": "<τ_0_0 where τ_0_0 : SDKConfigurations.Configuration>",
+            "sugared_genericSig": "<T where T : SDKConfigurations.Configuration>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "τ_0_0?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "τ_0_0.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17SDKConfigurations14ConfigurationsC7forTypexSgxm_tcAA13ConfigurationRzluig",
+                "mangledName": "$s17SDKConfigurations14ConfigurationsC7forTypexSgxm_tcAA13ConfigurationRzluig",
+                "moduleName": "SDKConfigurations",
+                "genericSig": "<τ_0_0 where τ_0_0 : SDKConfigurations.Configuration>",
+                "sugared_genericSig": "<T where T : SDKConfigurations.Configuration>",
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "index",
+            "printedName": "index(after:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SDKConfigurations14ConfigurationsC5index5afterS2i_tF",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsC5index5afterS2i_tF",
+            "moduleName": "SDKConfigurations",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addDefaultConfigIfNeeded",
+            "printedName": "addDefaultConfigIfNeeded(ofType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17SDKConfigurations14ConfigurationsC24addDefaultConfigIfNeeded6ofTypeyxm_tAA13ConfigurationRzlF",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsC24addDefaultConfigIfNeeded6ofTypeyxm_tAA13ConfigurationRzlF",
+            "moduleName": "SDKConfigurations",
+            "genericSig": "<τ_0_0 where τ_0_0 : SDKConfigurations.Configuration>",
+            "sugared_genericSig": "<T where T : SDKConfigurations.Configuration>",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(arrayLiteral:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Configurations",
+                "printedName": "SDKConfigurations.Configurations",
+                "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SDKConfigurations.Configuration]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "SDKConfigurations.Configuration",
+                    "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17SDKConfigurations14ConfigurationsC12arrayLiteralAcA13Configuration_pd_tcfc",
+            "mangledName": "$s17SDKConfigurations14ConfigurationsC12arrayLiteralAcA13Configuration_pd_tcfc",
+            "moduleName": "SDKConfigurations",
+            "declAttributes": [
+              "Convenience",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Convenience"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations",
+        "mangledName": "$s17SDKConfigurations14ConfigurationsC",
+        "moduleName": "SDKConfigurations",
+        "objc_name": "ZDKConfigurations",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Collection",
+            "printedName": "Collection",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "SDKConfigurations.Configuration",
+                    "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Index",
+                "printedName": "Index",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<SDKConfigurations.Configurations>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Configurations",
+                        "printedName": "SDKConfigurations.Configurations",
+                        "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SubSequence",
+                "printedName": "SubSequence",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Slice",
+                    "printedName": "Swift.Slice<SDKConfigurations.Configurations>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Configurations",
+                        "printedName": "SDKConfigurations.Configurations",
+                        "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations"
+                      }
+                    ],
+                    "usr": "s:s5SliceV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Indices",
+                "printedName": "Indices",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DefaultIndices",
+                    "printedName": "Swift.DefaultIndices<SDKConfigurations.Configurations>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Configurations",
+                        "printedName": "SDKConfigurations.Configurations",
+                        "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations"
+                      }
+                    ],
+                    "usr": "s:SI"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sl",
+            "mangledName": "$sSl"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sequence",
+            "printedName": "Sequence",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "SDKConfigurations.Configuration",
+                    "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "Iterator",
+                "printedName": "Iterator",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "IndexingIterator",
+                    "printedName": "Swift.IndexingIterator<SDKConfigurations.Configurations>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Configurations",
+                        "printedName": "SDKConfigurations.Configurations",
+                        "usr": "c:@M@SDKConfigurations@objc(cs)ZDKConfigurations"
+                      }
+                    ],
+                    "usr": "s:s16IndexingIteratorV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:ST",
+            "mangledName": "$sST"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Configuration",
+                    "printedName": "SDKConfigurations.Configuration",
+                    "usr": "c:@M@SDKConfigurations@objc(pl)ZDKConfiguration"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/SDKConfigurations\/SDKConfigurations\/Source\/Configuration\/ConfigurationCollection.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 14,
+      "value": "\"SDKConfigurations.Configurations\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/zendesk_mobile_sdks_ios\/zendesk_mobile_sdks_ios\/SDKConfigurations\/SDKConfigurations\/Source\/Configuration\/ConfigurationCollection.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2083,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}
